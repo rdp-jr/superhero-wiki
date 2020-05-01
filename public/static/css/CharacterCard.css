@@ -1,0 +1,56 @@
+.characterCard {
+  height: 370px;
+  width: 160px;
+  background-color: #151515; 
+  cursor: pointer; 
+  color: white;
+}
+
+.characterCard:hover .characterImage {
+  transform: scale(1.10);
+}
+
+.characterImageContainer {
+  overflow: hidden;
+  height: 240px;
+  width: 100%;
+  background-color: grey;
+  
+}
+
+.characterImage {
+  transition: transform .4s;
+  cursor: pointer;
+}
+
+.characterImage:hover {
+  transform: scale(1.10);
+}
+
+.info {
+  color: white;
+  height: 35%;
+  width: 100%;
+  background-color: #151515;
+}
+
+
+
+.name {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.full-name {
+  padding-top: 0;
+  margin-top: 0;
+  color: #a3a2a2;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.publisher {
+  color: #a3a2a2;
+  font-weight: bold;
+}

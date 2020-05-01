@@ -1,0 +1,15 @@
+/* .powerBarContainer {
+  border: 1px solid black;
+} */
+
+
+.power-bar {
+  background-color: rgb(192, 192, 192);
+  width: 500px;
+}
+
+.level {
+  height: 20px;
+  transition-duration: 1s ease;
+  transition-delay: 2s;
+}
